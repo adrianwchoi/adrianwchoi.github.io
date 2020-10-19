@@ -1,0 +1,140 @@
+/* Welcome Section */
+  /* Want to add parallax scrolling effect */
+  /* https://materializecss.com/parallax.html */
+
+/* NavBar Issue Solution */
+  /* https://github.com/twbs/bootstrap/issues/1768 */
+
+body {
+  background-color: #FFFFFF;
+}
+
+/* About Section */
+#fun-about .profile-container {
+  margin: 0 0 0 10%;
+  width: 75%;
+  height: auto;
+  object-fit: contain;
+  overflow: hidden;
+  display: inline-flex;
+  padding-left: 5%;
+}
+
+#fun-about img {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  margin-top: 15%;
+}
+
+#fun-about em {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.5vw;
+}
+
+#fun-about p.about-me {
+  font-family: Oswald, Arial, sans-serif;
+  font-size: 1.5vw;
+  letter-spacing: 0.25px;
+  margin: 7.5% 5% 5% 5%;
+  color: #2F364F;
+}
+
+
+/* Projects Section */
+#projects h1 {
+  display: flex;
+  font-family: Oswald, Arial, sans-serif;
+  color: #2F364F;
+  text-transform: uppercase;
+  padding: 0.5% 0 0.5% 5%;
+  margin: 2.5% 60% 2.5% 0;
+  border: 4px solid #116198;
+  font-size: 2vw;
+  border-left: none;
+}
+
+#projects .card-deck .card {
+  background-color: #2F364F;
+  border: 1px solid #2F364F;
+  color: #FFFFFF;
+}
+
+#projects .card-deck .card a {
+  text-decoration: none;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+#projects .card-deck {
+  margin: 2.5%;
+}
+
+#projects .card-body {
+  font-family: Oswald, Arial, sans-serif;
+  color: #FFFFFF;
+  font-size: 1.75vw;
+}
+
+#projects .card-title {
+  font-size: 2vw;
+  color: #9CD1F1;
+}
+
+#projects .card-title:hover {
+  text-decoration: underline;
+}
+
+/* #projects .card-title:hover ~ .card a img {
+  transform: scale(1.1);
+} */
+
+#projects .card a img {
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+}
+
+#projects .card a img:hover {
+  transform: scale(1.025);
+}
+
+#projects .card a img:hover ~ .card-body .card-title {
+  text-decoration: underline;
+}
+
+
+/* Publications Section */
+
+#work-about .skills h1 {
+  display: flex;
+  font-family: Oswald, Arial, sans-serif;
+  color: #2F364F;
+  text-transform: uppercase;
+  font-size: 2vw;
+  padding: 0.5% 0 0.5% 5%;
+  margin: 6% 60% 2.5% 0;
+  border: 4px solid #116198;
+  border-left: none;
+}
+
+#work-about .skills .content {
+  width: 100%;
+  height: auto;
+  font-family: Oswald, Arial, sans-serif;
+  font-size: 1.25vw;
+  display: inline-flex;
+  justify-content: space-around;
+  text-align: justify;
+}
+
+#work-about .skills .content h2 {
+  color: #2F364F;
+  font-size: 2.25vw;
+}
+
+#work-about .skills .content li {
+  list-style: none;
+  color: #116198;
+}

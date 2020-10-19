@@ -1,0 +1,87 @@
+/* Navigation Bar */
+nav {
+  font-family: Oswald, Arial, sans-serif;
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: center;
+  text-transform: lowercase;
+  background-color: #2F364F;
+  /* background-image: linear-gradient(to right, #2F364F, #116198); */
+}
+
+.navbar-brand {
+  font-size: 2vw;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  padding-left: 2.5%;
+
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+}
+
+.navbar-brand:hover {
+  color: #49A0D2;
+}
+
+.navbar-nav .nav-item {
+  color: #F5FFFE;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+}
+
+.navbar-nav .nav-item:hover {
+  color: #49A0D2;
+}
+
+/* Contact Section */
+#contact {
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  background-color: #2F364F;
+  padding: 2.5% 5% 5% 5%;
+}
+
+#contact #left-half {
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+}
+
+#contact #left-half a {
+  color: #49A0D2;
+  text-decoration: none;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+}
+
+#contact #left-half a:hover {
+  color: #9CD1F1;
+}
+
+#contact #right-half {
+  width: 100%;
+  height: auto;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+#contact p {
+  font-size: 1vw;
+  font-family: Oswald, Arial, sans-serif;
+  line-height: 0.5;
+  color: #FFFFFF;
+}
+
+#contact #right-half a {
+  text-decoration: none;
+  color: #49A0D2;
+  font-size: 2vw;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+}
+
+#contact #right-half a:hover {
+  color: #9CD1F1;
+}
