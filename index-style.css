@@ -10,7 +10,7 @@ body {
 }
 
 /* About Section */
-#about .profile-container {
+#fun-about .profile-container {
   margin: 0 0 0 10%;
   width: 75%;
   height: auto;
@@ -20,20 +20,20 @@ body {
   padding-left: 5%;
 }
 
-#about img {
+#fun-about img {
   width: 30%;
   height: 30%;
   border-radius: 50%;
   margin-top: 15%;
 }
 
-#about em {
+#fun-about em {
   font-weight: 500;
   font-style: normal;
   font-size: 2.5vw;
 }
 
-#about p.about-me {
+#fun-about p.about-me {
   font-family: Oswald, Arial, sans-serif;
   font-size: 1.5vw;
   letter-spacing: 0.25px;
